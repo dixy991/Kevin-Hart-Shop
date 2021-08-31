@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap");
+* {
+  text-transform: uppercase;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+* a {
+  text-decoration: none !important;
+}
+
+* a:hover {
+  color: whitesmoke !important;
+}
+
+* a:hover img:not(.nopa) {
+  opacity: 0.5 !important;
+}
+
+#slajder {
+  background-image: url("../img/Kevin-Hart-HD.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+#navigacija {
+  background-color: transparent !important;
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 1.2em !important;
+}
+
+.omotac {
+  margin: 0px auto;
+  width: 90%;
+}
+
+.breadcrumb {
+  background-color: transparent !important;
+}
+
+input, textarea {
+  margin: 5% 0%;
+  text-transform: initial;
+  width: 100%;
+  height: 40px !important;
+  border-radius: 0% !important;
+  background-color: transparent !important;
+  color: red !important;
+}
+
+select {
+  height: 40px;
+  padding-left: 2%;
+  color: red;
+  background-color: #000;
+  width: 50%;
+}
+
+#ddlAnketaActivate {
+  width: 100% !important;
+}
+
+textarea {
+  height: 100% !important;
+}
+
+input[type=submit], input[type=button] {
+  width: 25%;
+}
+
+input[type=radio], input[type=checkbox] {
+  width: 10% !important;
+  height: 20px !important;
+}
+
+input[type=number] {
+  width: 15% !important;
+  color: red !important;
+}
+
+.smanji {
+  height: 100px;
+}
+
+table {
+  width: 100%;
+}
+
+body, .btn {
+  background-color: #000;
+  color: whitesmoke;
+}
+
+body a, body i, .btn a, .btn i {
+  color: whitesmoke !important;
+}
+
+.btn {
+  border: 2px solid white;
+}
+
+.btn:hover {
+  border: 2px solid #ca0606;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.bojaReda {
+  background-color: rgba(202, 6, 6, 0.5);
+}
+
+.crveno {
+  color: red !important;
+}
+
+.crno {
+  background-color: #000 !important;
+}
+
+.dropdown-menu {
+  padding: 0% !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: red !important;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.slikeKorpe {
+  height: 150px !important;
+  width: 100%;
+  padding-left: 25% !important;
+}
+
+.slikeKorpe img {
+  height: 100% !important;
+}
+
+.modal-dialog {
+  width: 800px !important;
+  color: red;
+}
+
+.modal-dialog .modal-content {
+  width: 100% !important;
+  background-color: #000 !important;
+  border: 2px solid whitesmoke;
+}
+
+.nodec {
+  list-style-type: none !important;
+}
+
+.poquito {
+  width: 20% !important;
+  border-radius: 5% !important;
+}
+
+.uvuci {
+  text-indent: 5%;
+}
+@media screen and (max-width: 1500px) {
+  #slajder{
+      background-position:center center !important;
+  }
+}
+
+#stanje{
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

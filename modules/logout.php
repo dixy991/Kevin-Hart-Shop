@@ -1,0 +1,11 @@
+<?php
+    session_start();
+    ob_start();
+    if(isset($_SESSION['korisnik'])){
+        unset($_SESSION['korisnik']);
+        header("Location:index.php?page=login");
+    }
+    else{
+        header("Location:../index.php?page=home");
+    }
+?>
